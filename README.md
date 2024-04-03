@@ -40,7 +40,7 @@
     <hr>
     <h2>주문하기</h2>
     <p>방울 토마토는 <b><u>3kg에 2만원</u></b>입니다. 주문하시려면 아래 링크를 클릭해주세요.</p>
-    <p><button><a href="http://127.0.0.1:3000/index.html.html"></a>주문하기</button></p>
+    <p><button><a href="https://umi1n.github.io/public/" target="_blank"></a>주문하기</button></p>
     <hr>
     <h2>상품정보</h2>
     <table border="1">
