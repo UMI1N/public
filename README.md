@@ -28,7 +28,7 @@
         <li>건강한 성분이 많이 함유됨</li>
         <li>다양한 요리나 음료에 사용 가능</li>
     </ul>
-    <a href="https://www.10000recipe.com/recipe/6840905" target="_blank">방울 토마토 요리방법 보기</a>
+    <p><a href="https://www.10000recipe.com/recipe/6840905" target="_blank">방울 토마토 요리방법 보기</a></p>
     <hr>
     <h2>효능</h2>
     <ul>
