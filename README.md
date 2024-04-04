@@ -8,20 +8,20 @@
 </head>
 
 <body>
-    <ul>
-        <li><a href="">특징</a></li>
-        <li><a href="">효능</a></li>
-        <li><a href="">주문하기</a></li>
-        <li><a href="">상품정보</a></li>
+    <ul id="menu">
+        <li><a href="#content1">특징</a></li>
+        <li><a href="#content2">효능</a></li>
+        <li><a href="#content3">주문하기</a></li>
+        <li><a href="#content4">상품정보</a></li>
     </ul>
     <hr>
     <h1>방울 토마토</h1>
     <figure>
-        <img src="tomato.jpg" alt="d">
+        <img src="tomato.jpg">
         <figcaption>생산된 방울 토마토</figcaption>
     </figure>
     <hr>
-    <h2>특징</h2>
+    <h2 id="content1"></>특징</h2>
     <ul>
         <li>맛이 달고 진함</li>
         <li>크기가 작고 귀여워서 아이들도 좋아함</li>
@@ -30,7 +30,7 @@
     </ul>
     <p><a href="https://www.10000recipe.com/recipe/6840905" target="_blank">방울 토마토 요리방법 보기</a></p>
     <hr>
-    <h2>효능</h2>
+    <h2 id="content2"></>효능</h2>
     <ul>
         <li><mark>항산화 작용</mark>으로 노화 방지에 좋다.</li>
         <li><mark>칼륨 함량</mark>이 높아서 혈압 조절에 좋다.</li>
@@ -38,11 +38,11 @@
         <li><mark>체내 독소 제거와 간 기능 개선</mark>에도 효과가 있다.</li>
     </ul>
     <hr>
-    <h2>주문하기</h2>
+    <h2 id="content3">주문하기</h2>
     <p>방울 토마토는 <b><u>3kg에 2만원</u></b>입니다. 주문하시려면 아래 링크를 클릭해주세요.</p>
-    <p><button><a href="https://umi1n.github.io/public/" target="_blank"></a>주문하기</button></p>
+    <p><button type="button" onclick="location.href='https://umi1n.github.io/public/';">주문하기</button></p>
     <hr>
-    <h2>상품정보</h2>
+    <h2 id="content4">상품정보</h2>
     <table border="1">
         <tr>
             <th>상품번호</th>
@@ -68,7 +68,7 @@
     <br>
     <img src="tomato_1.png" height="100" width="100" alt="">
     <hr>
-    <h2><a href="">Top으로 이동</a></h2>
+    <h2><a href="#menu">Top으로 이동</a></h2>
 </body>
 
 </html>
