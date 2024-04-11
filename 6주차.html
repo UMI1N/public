@@ -25,7 +25,7 @@
         </fieldset>
     </form>
     <br>
-   
+
     <form>
         <fieldset>
             <legend>배송정보</legend>
@@ -59,15 +59,15 @@
             <legend>주문 정보</legend>
             <label>상품</label>
             <br>
-            <input type="checkbox" name="tomato1"> 
+            <input type="checkbox" name="tomato1">
             <label>방울토마토1kg <del>10,000원</del><b>8,000원</b></label>
             <input type="text" name="tomato1">박스
             <br>
-            <input type="checkbox" name="tomato2"> 
+            <input type="checkbox" name="tomato2">
             <label>방울토마토2kg <del>20,000원</del><b>16,000원</b></label>
             <input type="text" name="tomato2">박스
             <br>
-            <input type="checkbox" name="tomato3"> 
+            <input type="checkbox" name="tomato3">
             <label>방울토마토3kg <del>30,000원</del><b>24,000원</b></label>
             <input type="text" name="tomato3">박스
             <br>
@@ -75,8 +75,28 @@
             <input type="text" size="49">
         </fieldset>
     </form>
-    
-    
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>결제수단</legend>
+            <ul>
+                <li>
+                    <input type="radio" id="bank_transfer" name="payment_method" value="bank_transfer">
+                    <label for="bank_transfer">계좌 이체</label>
+                </li>
+                <li>
+                    <input type="radio" id="card_payment" name="payment_method" value="card_payment">
+                    <label for="card_payment">카드 결제</label>
+                </li>
+                <li>
+                    <input type="radio" id="general_payment" name="payment_method" value="general_payment">
+                    <label for="general_payment">일반 결제</label>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+
 </body>
 
 </html>
