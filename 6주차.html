@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>상품 주문서</h1>
+    <form>
+        <fieldset>
+            <legend>개인 정보</legend>
+            <ul>
+                <li>
+                    <label for="name">주문자 이름</label>
+                    <input type="text" id="name" name="name">
+                </li>
+                <li>
+                    <label for="tel">전화번호</label>
+                    <input type="tel" id="tel" name="tel" naplaceholder="번호만 입력">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+    <br>
+   
+    <form>
+        <fieldset>
+            <legend>배송정보</legend>
+            <ul>
+                <li>
+                    <label>배송옵션 :</label>
+                    <input type="radio" name="delivery_option" value="existing_address">
+                    <span>기존 배송지</span>
+                    <input type="radio" name="delivery_option" value="new_address">
+                    <span>새 배송지</span>
+                </li>
+                <li>
+                    <label for="address">주소</label>
+                    <input type="text" id="address" name="address">
+                </li>
+                <li>
+                    <label for="dd">요청사항</label>
+                    <select id="dd" name="request">
+                        <option value="1">요청사항을 선택하세요.</option>
+                        <option value="2">배송 전에 미리 연락 바랍니다</option>
+                        <option value="3">부재시 경비실에 맡겨주세요</option>
+                        <option value="4">부재시 전화 주시거나 문자 남겨주세요</option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend>주문 정보</legend>
+            <label>상품</label>
+            <br>
+            <input type="checkbox" name="tomato1"> 
+            <label>방울토마토1kg <del>10,000원</del><b>8,000원</b></label>
+            <input type="text" name="tomato1">박스
+            <br>
+            <input type="checkbox" name="tomato2"> 
+            <label>방울토마토2kg <del>20,000원</del><b>16,000원</b></label>
+            <input type="text" name="tomato2">박스
+            <br>
+            <input type="checkbox" name="tomato3"> 
+            <label>방울토마토3kg <del>30,000원</del><b>24,000원</b></label>
+            <input type="text" name="tomato3">박스
+            <br>
+            <label>기타사항</label>
+            <input type="text" size="49">
+        </fieldset>
+    </form>
+    
+    
+</body>
+
+</html>
